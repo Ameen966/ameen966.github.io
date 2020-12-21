@@ -1,5 +1,21 @@
-ul {
-    list-style-type: none;
+.nav {
+    list-style-type: disc;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+.navitem {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navitem:hover {
+    background-color: #e3e1d1;
+    color: black;
 }
