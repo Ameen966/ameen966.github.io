@@ -1,3 +1,25 @@
+.ameen {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.ameenitem {
+    display: inline;
+    color: rgb(240, 220, 220);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li{
+    float: center;
+}
+
+.ameenitem:hover{
+    background-color: cornflowerblue;
+    color: #000;
+}
 .nav {
     list-style-type: disc;
     margin: 0;
